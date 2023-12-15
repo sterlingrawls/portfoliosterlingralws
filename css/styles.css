@@ -1,6 +1,6 @@
 #title {
     background-color: #000;
-    background-image: url("/images/dubai2.png");
+    background-image: url("https://sterlingrawls.github.io/portfoliosterlingrawls/images/dubai2.png");
     align-items: center;
     height: 1080px;
     width: 2000px;
@@ -131,7 +131,7 @@ p{
     padding: 1% 10%;
     text-align: center;
     background-color: #0091ff;
-    background-image: url("/images/dubai.png");
+    background-image: url("https://sterlingrawls.github.io/portfoliosterlingrawls/images/dubai.png");
     height: 1440px;
     object-fit: cover;
 }
