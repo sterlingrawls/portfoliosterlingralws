@@ -1,0 +1,250 @@
+#title {
+    background-color: #000;
+    background-image: url("../images/dubai2.png");
+    align-items: center;
+    height: 1080px;
+    width: 1920px;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+a {
+    font-family: 'Pacifico';
+    color: #fff;
+}
+
+a:hover {
+    color: #00bcd4;
+}
+
+h1 {
+    font-family: 'Baloo 2';
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+    z-index: 1;
+}
+
+h2 {
+    font-family: 'Baloo 2';
+    color: #fff;
+    font-size: 1.5;
+    font-weight: bold;
+    line-height: 2;
+}
+
+h3 {
+    font-family: 'Baloo 2';
+    font-weight: bold;
+    color: black;
+}
+
+p{
+    color: #b9b9b9;
+    font-family: Baloo 2;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico';
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: 'Baloo 2';
+    font-size: 1.2rem;
+}
+
+/* Download Buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+    left: 10px;
+    width: 100%;
+    border-radius: 10%;
+    transform: rotate(10deg);
+    position: absolute;
+    z-index: 0;
+}
+
+
+#features {
+    padding: 7% 7%;
+    background-color: #fff;
+    z-index: 10;
+    position: relative;
+}
+
+.header1 {
+    color: #00f7ff;
+    text-align: center;
+}
+
+.header2 {
+    color: white;
+    text-align: center;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 3%;
+}
+
+.iconlg {
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+.iconlg:hover{
+    color: #00f7ff;
+}
+
+.icon {
+    color: #0091ff;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #0aff89;
+}
+
+
+/* Testimonials Section */
+
+#testimonials {
+    padding: 1% 10%;
+    text-align: center;
+    background-color: #0091ff;
+    background-image: url("../images/dubai.png");
+    height: 1440px;
+    object-fit: cover;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 100%;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+.testimonial-video {
+    width: 100%;
+    border-radius: 1%;
+    margin: 10px;
+}
+
+#press{
+    background-color: #0091ff;
+    text-align:center;
+}
+
+.press-logo {
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section  */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-header {
+    color: #000;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* Call To Action Section CTA */
+
+#cta {
+    background-color: #0091ff;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: 'Baloo 2';
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: #fff;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer {
+    padding: 7% 15%;
+    text-align:center;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+ /* MISC */
+ .card-header {
+    background-color: #0091ff;
+    padding: 5% 5% 5% 5%;
+}
+
+.card {
+    background-color: #fff;
+}
+
+.fa-social {
+    padding: 1% 1%;
+    color:#000;
+}
+
+.fa-social:hover {
+    color: #0091ff;
+}
+
+.slow-spin {
+    -webkit-animation: fa-spin 1s infinite linear;
+    animation: fa-spin 15s infinite linear;
+  }
+
+/* Media Query Selection */
+
+@media (max-width: 1028px){
+    #title {
+        text-align: center;
+    }
+    .title-image{
+        position:static;
+        transform: rotate(0deg);
+        width: 800px
+        text-align: center;
+    }
+}
+
+
+
+
+
+/* COGS3 studyBuddy specific styles go here. */
